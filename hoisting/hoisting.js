@@ -5,7 +5,7 @@
 
 //--------------------EXEMPLO PARA HOISTING DE VARIÁVEL---------------------------
 
-function variavel() {
+function hoistingVariavel() {
     /* Está sendo uma variável que ainda não foi declarada. Entretanto, o JavaScript eleva a declaração para antes do console.log() de forma a fazer com que todas as variáveis da função sejam elevadas para o topo da função, 
     evitando dar problema de reference error. Entretanto, nesse caso vai retornar na verdade undefined por a variável é içada sem ser inicializada */
     console.log(text);
@@ -27,7 +27,7 @@ function variavel() {
 
 */
 
-variavel();
+hoistingVariavel();
 
 //--------------------EXEMPLO PARA HOISTING DE FUNÇÃO---------------------------
 
