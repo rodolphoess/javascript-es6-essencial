@@ -16,3 +16,5 @@ suporte por parte do NetScape por meio de applets. Para muitos, a mudança de no
 - TypeScript: adiciona ferramentas ao JavaScript, tais como interfaces, enums, facilitando o desenvolvimento em JavaScript devido a checagem de tipos e estruturas bem conhecidas da OO, tais como classes;
 
 - Escopo (Closure): Hoje tem-se 3 escopos disponíveis no JavaScript; o escopo global, o escopo de função, e o escopo de bloco que surgiu com o ES6 devido a adição do let e do const;
+
+OBS.: Não é uma boa prática escrever variáveis do tipo 'var' em escopo global, pois se o usuário for buscar no browser as variáveis globais 'var' ele tem acesso e consegue exibir o conteúdo delas no console do próprio browser, o que tras problemas de segurança. Isso já não acontece com o tipo 'let'
