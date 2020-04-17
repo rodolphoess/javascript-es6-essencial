@@ -15,7 +15,7 @@ function somaComCurrying(a) {
     }
 }
 
-const soma2 = somaComCurrying(2); //Primeiro parâmetro. Quando executar somaComCurrying retornará a primeira função, e dentro da primeira função tem uma outra função que pode receber um outro valor. Ou seja, a const recebeu a segunda função de somaComCurrying(a).
+const soma2 = somaComCurrying(2); //Primeiro parâmetro. Quando executar somaComCurrying retornará a primeira função, e dentro da primeira função tem uma outra função que pode receber um outro valor. Ou seja, a const recebeu e armazenou a segunda função de somaComCurrying(a).
 console.log(soma2(2)); //Segundo parâmetro recebido dentro da segunda função que foi herdada em soma2.
 console.log(soma2(3)); //Execução igual a linha 19.
 console.log(soma2(4)); //Execução igual a linha 19.
