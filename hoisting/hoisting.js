@@ -1,4 +1,4 @@
-/*HOISTING: Significa levantar ou suspender algo, comportamento que ocorre no JS em declarações de variáveis e funções. Essas declarações são levadas para cima no escopo que ela está, por exemplo, ao usar uma variável dentro de uma função,
+/*HOISTING: Conceito de linguagem funcional presente no JS. Significa levantar ou suspender algo, comportamento que ocorre no JS em declarações de variáveis e funções. Essas declarações são levadas para cima no escopo que ela está, por exemplo, ao usar uma variável dentro de uma função,
  a linguagem buscará a declaração da variável dentro do escopo da função, seja escopo de bloco, função ou global.*/
 
 /* Pode-se separar o hoisting em dois tipos: de variáveis e funções. A diferença é que o hoisting de variável só eleva a criação da variável, e não a atribuição. Já a função é elevada ao topo como um todo, até a sua assinatura. */
