@@ -5,6 +5,8 @@ suporte por parte do NetScape por meio de applets. Para muitos, a mudança de no
 
 - ECMAScript é uma especificação de linguagem de scripts padronizada pelo projeto ECMA-262. As linguagens JavaScript, JScript e ActionScript seguem a ECMAScript, porém cada uma provê recursos não descritos na especificação ECMA;
 
+- O comitê responsável pela evolução do ECMAScript é conhecido como TC39;
+
 - ECMAScript é uma especificação de linguagem de programação baseada em scripts, usada em tecnologias para internet para a crição de scripts executados no cliente, sendo criada para padronizar linguagens como JavaScript, além de permitir outras implementações independentes;
 
 - Transpilador: Transforma uma versão mais nova de uma tecnologia/linguagem em uma versão mais antiga que é suportada por mais clientes, sejam eles browsers, servidores, entre outros. Por exemplo, o BABEL é um transpilador JavaScript que transforma ES2019 em ES2015, entre outras transpilações;
@@ -16,5 +18,8 @@ suporte por parte do NetScape por meio de applets. Para muitos, a mudança de no
 - TypeScript: adiciona ferramentas ao JavaScript, tais como interfaces, enums, facilitando o desenvolvimento em JavaScript devido a checagem de tipos e estruturas bem conhecidas da OO, tais como classes;
 
 - Escopo (Closure): Hoje tem-se 3 escopos disponíveis no JavaScript; o escopo global, o escopo de função, e o escopo de bloco que surgiu com o ES6 devido a adição do let e do const;
+
+- Fluxos de propostas para submeter uma proposta ao TC39. Qual alternativa abaixo contém o fluxo correto:
+Stage 0: strawman, Stage 1: proposal, Stage 2: draft, Stage 3: candidate e Stage 4: finished
 
 OBS.: Não é uma boa prática escrever variáveis do tipo 'var' em escopo global, pois se o usuário for buscar no browser as variáveis globais 'var' ele tem acesso e consegue exibir o conteúdo delas no console do próprio browser, o que tras problemas de segurança. Isso já não acontece com o tipo 'let'
