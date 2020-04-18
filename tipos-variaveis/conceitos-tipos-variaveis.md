@@ -15,7 +15,7 @@ A diferença entre const e let é que o const a idéia dele é para criar consta
 
  Mas qual é a vantagem de utilizar objetos como const? É possível congelar inclusive o conteúdo dentro do const, não sendo possível alterar nem a referência nem o conteúdo do objeto.
 
-OBS.: Não é uma boa prática escrever variáveis do tipo 'var' em escopo global, pois se o usuário for buscar no browser as variáveis globais 'var' ele tem acesso e consegue exibir o conteúdo delas no console do próprio browser, o 
+OBS.: Não é uma boa prática escrever variáveis do tipo 'var' em escopo global, pois se o usuário for buscar no browser as variáveis globais 'var' ele tem acesso e conseguem exibir o conteúdo delas no console do próprio browser, o 
 que tras problemas de segurança. Isso já não acontece com os tipos 'let' e 'const'.
 
 OBS.: O tipo 'var' não respeita o escopo de bloco.
