@@ -10,7 +10,7 @@ function hoistingVariavel() {
     evitando dar problema de reference error. Entretanto, nesse caso vai retornar na verdade undefined por a variável é içada sem ser inicializada */
     console.log(text);
 
-    var text = 'Exemplo hoisting variável';
+    var text = 'Linha 13: Exemplo hoisting variável';
 
     console.log(text); //Depois de declarada a variável e ela ter sido inicializada, aí sim retorna o conteúdo da variável no lugar de undefined.
 }
@@ -35,7 +35,7 @@ hoistingVariavel();
 conforme trecho comentado abaixo. */
 
 function fn() {
-    log('Hoisting de função.');
+    log('Linha 38: Hoisting de função.');
 
     function log(value) {
         console.log(value);
