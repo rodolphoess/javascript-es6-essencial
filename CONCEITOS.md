@@ -19,7 +19,11 @@ suporte por parte do NetScape por meio de applets. Para muitos, a mudança de no
 
 - Escopo (Closure): Hoje tem-se 3 escopos disponíveis no JavaScript; o escopo global, o escopo de função, e o escopo de bloco que surgiu com o ES6 devido a adição do let e do const;
 
-- Fluxos de propostas para submeter uma proposta ao TC39. Qual alternativa abaixo contém o fluxo correto:
-Stage 0: strawman, Stage 1: proposal, Stage 2: draft, Stage 3: candidate e Stage 4: finished
+- O fluxo para submeter uma proposta ao TC39 é o seguinte:
+Stage 0: strawman; 
+Stage 1: proposal; 
+Stage 2: draft; 
+Stage 3: candidate; e 
+Stage 4: finished.
 
-OBS.: Não é uma boa prática escrever variáveis do tipo 'var' em escopo global, pois se o usuário for buscar no browser as variáveis globais 'var' ele tem acesso e consegue exibir o conteúdo delas no console do próprio browser, o que tras problemas de segurança. Isso já não acontece com o tipo 'let'
+**OBS.: Não é uma boa prática escrever variáveis do tipo 'var' em escopo global, pois se o usuário for buscar no browser as variáveis globais 'var' ele tem acesso e consegue exibir o conteúdo delas no console do próprio browser, o que tras problemas de segurança. Isso já não acontece com o tipo 'let'.**
