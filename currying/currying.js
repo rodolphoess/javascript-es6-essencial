@@ -1,5 +1,5 @@
 // Currying é uma técnica que permite tornar uma função que recebe N parâmetros em apenas uma função que recebe 1 parâmetro, e para cada parâmetro retorna-se uma nova função.
-
+//teste
 function soma(a, b) {
     return a + b;
 }
