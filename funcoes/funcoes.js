@@ -1,5 +1,10 @@
 // EXEMPLO DE FUNÇÃO DE PRIMEIRA CLASSE E ORDEM MAIOR:
 
+/**
+ * Uma função de primeira classe ou ordem maior é aquela que pode ser atribuída para uma variável ou estrutura de dados, conforme linha 15. Assim como, ela também pode ser passada por parâmetro para uma outra função, assim como pode ser
+ * retornada.
+ */
+
 function getName() {
     return 'Rodolpho Erick';
 }

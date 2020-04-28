@@ -23,4 +23,4 @@ console.log('Retorno de fn() após adicionar uma propriedade na linha 18: ', fn.
 const logValue = value => console.log(value); // O value nesse caso representa um parâmetro que é recebido na Arrow Function.
 const logFnResult = fnParam => console.log(fnParam()); // O fnParam nesse caso representa uma função que é recebida na Arrow Function.
 
-logFnResult(fn);
+logFnResult(fn); // Passa a função fn() para logFnResult, que se comportará como a função fn() e retornará a string 'Return of the Tradictional Function'

@@ -2,7 +2,7 @@
 var partes = ['ombro', 'joelhos'];
 var musica = ['cabeca', ...partes, 'e', 'pes'];
 /* 
-O Spread consegue pegar o array no qual está se relacionando e iterar sobre esse array. É como se ele pegasse o array partes e jogasse dentro do array musica, fazendo com que 
+O Spread consegue pegar o array no qual está se relacionando e iterar sobre esse array. É como se ele pegasse o array 'partes' e jogasse dentro do array musica, fazendo com que 
 musica = ['cabeca', 'ombro', 'joelhos', 'e', 'pes'];
 
 Isso faz com que o Spread seja muito utilizado quando deseja-se concatenar arrays

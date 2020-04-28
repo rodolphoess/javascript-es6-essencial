@@ -51,7 +51,7 @@ const personsWithCourse = persons.map(person => {
 console.log('\nPessoas com a adição do course na linha 47: ', personsWithCourse);
 
 // Transformar um array em outro tipo
-const totalAge = persons.reduce((age, person) => { // age = o parâmetro que você quer retornar e será recebido por totalAge; person = o elemento de persons que está sendo iterado.
+const totalAge = persons.reduce((age, person) => { // age = o parâmetro que você quer retornar, será recebido por totalAge e servirá para realizar operaçoes dentro do bloco; person = o elemento de persons que está sendo iterado.
     age += person.age;
     return age;
 }, 0); // 0 = valor inicial de age.
