@@ -1,3 +1,4 @@
+console.log('Questão 1: ');
 let personagem = {
     velocidade: 9,
     poder: 15,
@@ -5,14 +6,16 @@ let personagem = {
 }
 
 //   console.log(Object.personagem(velocidade));
-console.log(Object.assign(personagem, { esquiva: 2 }));
-console.log(Object.keys(personagem));
-console.log(Object.freeze(personagem));
-console.log(Object.entries(personagem));
+console.log('Assign: ', Object.assign(personagem, { esquiva: 2 }));
+console.log('Keys: ', Object.keys(personagem));
+console.log('Freeze: ', Object.freeze(personagem));
+console.log('Entries: ', Object.entries(personagem));
 
 /**
  * -----------------------------
  */
+
+console.log('\nQuestão 2: ');
 
 const bandas = [{
         name: 'The Who',
@@ -32,5 +35,5 @@ const bandas = [{
     }
 ];
 
-const soul = bandas.filter(bandas => bandas.genero === 'Rock');
+const soul = bandas.filter(banda => banda.genero === 'Rock');
 console.log(soul);
