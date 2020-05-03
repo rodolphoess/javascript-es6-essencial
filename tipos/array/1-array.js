@@ -1,3 +1,17 @@
+/**
+ * ADICIONAR E DELETAR ELEMENTOS DE UM ARRAY: 
+ * 
+ * Para ADICIONAR um elemento no final do array utilize a função PUSH, ao utilizar a função push ela retornará a quantidade de itens que o array ficou após a adição;
+ * Para DELETAR o último elemento de um array utilize a função POP, ao utilizar a função pop ela retornará o item que foi removido do array;
+ * Para ADICIONAR um elemento no início do array utilize a função UNSHIFT, ao utilizá-la ela retornará o tamanho do array após a adição do novo elemento;
+ * Para DELETAR um elemento no início do array utilize a função SHIFT, ao utilizá-la ela retornará o item que foi removido do array;
+ * 
+ * Para CONCATENAR dois ou mais arrays retornar um novo array utiliza-se a função CONCAT. Ao utilizar o CONCAT, os arrays raízes não são alterados, seguindo o princípio da imutabilidade;
+ * Para FATIAR um array utiliza-se a função SLICE. AO utilizar o SLICE, diz-se os índices do array raíz no qual quer fatiar, ele pega o índice inicial e final e cria um novo array sem alterar o array raíz;
+ * Para ADICIONAR OU REMOVER vários itens do array utiliza-se a função SPLICE, diz-se os índices ou o índice do array raíz no qual deseja-se alterar, ele pega o intervalo e cria um novo array sem alterar o array raíz;
+ * 
+ */
+
 // Array simples de tipos primitivos.
 const users = ['Guilherme', 'Pedro', 'Jennifer'];
 console.log(users);
@@ -65,3 +79,23 @@ const totalEvenAges = persons
         return age;
     }, 0); // O valor inicial de age, declarado na linha 63, é 0.
 console.log('\nSoma de idades das pessoas que possuem idade par: ', totalEvenAges);
+
+// Cria uma array com 3 posições vazias.
+const arr = Array(3);
+console.log(arr);
+
+// Nesse caso, cria um array com somente o item 3 inserido nele.
+const arr2 = Array.of(3);
+console.log(arr2);
+
+// Assim como arr, cria um array com 3 posições vazias.
+const arr3 = new Array(3);
+console.log(arr3);
+
+// SPLICE: Adicionando e/ou removendo um ou mais itens com a função splice.
+const frutas = ['banana', 'melancia'];
+console.log(frutas);
+frutas.splice(1, 0, 'acerola', 'goiaba'); // Parâmetros: A partir da posição 1; remova 0 elementos; adicione os elementos 'acerola' e 'goiaba'
+console.log(frutas);
+frutas.splice(3, 1, 'pêssego'); // Parâmetros: A partir da posição 3; remova 0 elementos; adicione o item 'pêssego'
+console.log(frutas);
