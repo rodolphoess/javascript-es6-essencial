@@ -96,6 +96,15 @@ console.log(arr2);
 const arr3 = new Array(3);
 console.log(arr3);
 
+// Transforma um objeto qualquer em um Array.
+const map = new Map([
+    [1, 2],
+    [3, 4]
+]);
+console.log(map);
+const arr4 = Array.from(map);
+console.log(arr4);
+
 // SPLICE: Adicionando e/ou removendo um ou mais itens com a função splice.
 const frutas = ['banana', 'melancia'];
 console.log(frutas);
